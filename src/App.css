@@ -1,4 +1,48 @@
 .App {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px; 
+  
+
+
 }
 
+.input-box {
+  width: 300px;
+  height: 40px;
+  font-size: 25pt;
+}
+
+.input {
+  margin-top:15px;
+  font-size: 25pt;
+}
+
+.display {
+  align-items: center;
+  justify-content: center;
+  margin-left:25%;
+  font-size: 20pt;
+
+
+
+}
+
+.checkBox {
+
+  margin-left:20px;
+}
+
+input[type='checkbox'] {
+  width:20px;
+  height:20px;
+  background:white;
+  border-radius:5px;
+  border:2px solid #555;
+}
+
+.delete {
+  margin-left:20px;
+  font-size:20px;
+}
