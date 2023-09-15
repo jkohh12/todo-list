@@ -58,6 +58,7 @@ function App() {
               </span>
               <label className = 'checkBox'>
                 <input checked = {task.checked} type = "checkbox" onChange= {() => handleCheck(index)}/>
+                {/* set task checked to val */}
                 <button type = "button" className = 'delete' onClick={() => deleteCurrentTask(index)}>
                 Delete
                 </button>
