@@ -31,7 +31,7 @@ function App() {
   }
 
   const handleCheck = (index) => {
-    const updatedItems = [...newTask]; //copying list
+    const updatedItems = [...newTask]; //copying list to new list
     updatedItems[index].checked = !updatedItems[index].checked; //negates current value of checked property
     //if it was true, it becomes false, false to true
     setNewTask(updatedItems);
