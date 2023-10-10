@@ -25,6 +25,7 @@ function App() {
     // If the condition i != index is true for an element, 
     // it will be included in the newTaskList array.
     // basically filter to only what isnt i == index
+    //
     setNewTask(newTaskList);
 
 
